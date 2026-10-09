@@ -35,6 +35,7 @@
     $$('[data-wa-display]').forEach((el) => (el.textContent = CFG.whatsappDisplay));
     $$('[data-bulk-qty]').forEach((el) => (el.textContent = CFG.bulkDiscount.minQty));
     $$('[data-bulk-percent]').forEach((el) => (el.textContent = CFG.bulkDiscount.percent + '%'));
+    $$('[data-ship-min]').forEach((el) => (el.textContent = money(CFG.freeShippingFrom)));
     const year = $('#year');
     if (year) year.textContent = new Date().getFullYear();
   }

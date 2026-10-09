@@ -13,14 +13,13 @@ window.GF = {
     showPrices: true,
     // Descuento por cantidad: a partir de minQty señuelos (cualquier mezcla de modelos y colores)
     bulkDiscount: { minQty: 5, percent: 15 },
-    freeShippingFrom: 15000,
+    freeShippingFrom: 5000,
     greeting: '¡Hola Instinto Fishing! ',
   },
 
   promos: [
-    { qty: 30, price: 6500 },
-    { qty: 50, price: 9900 },
-    { qty: 100, price: 18500 },
+    { qty: 10, price: 2800 },
+    { qty: 15, price: 4100 },
   ],
 
   // Paleta de colores compartida: el número es el sufijo del código (CPC01, BAN01…)
