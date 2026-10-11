@@ -1310,6 +1310,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   background: rgba(255, 255, 255, .1);
 }
 .promo.is-best .promo-unit span { background: rgba(0, 0, 0, .18); }
+.promo-note { font-size: .82rem; color: rgba(238, 244, 242, .65); margin: -6px 0 0; }
+.promo.is-best .promo-note { color: rgba(0, 0, 0, .55); }
 .promo .btn { margin-top: auto; width: 100%; }
 
 .perks { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 26px; }

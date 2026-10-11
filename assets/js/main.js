@@ -286,6 +286,7 @@
         <hr>
         <p class="promo-price">${money(p.price)}</p>
         <p class="promo-unit"><span>${unitText}</span>${shipping}</p>
+        <p class="promo-note">Combinando modelos a elección</p>
         <a class="btn ${isBest ? 'btn-light' : 'btn-primary'}" target="_blank" rel="noopener"
            href="${waHref(`Me interesa la promo de ${p.qty} señuelos por ${money(p.price)}.`)}">
           <svg aria-hidden="true"><use href="#i-wa"/></svg><span>Quiero esta promo</span>
